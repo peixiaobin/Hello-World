@@ -13,6 +13,9 @@
 		865E78981E21EABB00C2EB0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865E78961E21EABB00C2EB0C /* Main.storyboard */; };
 		865E789A1E21EABB00C2EB0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865E78991E21EABB00C2EB0C /* Assets.xcassets */; };
 		865E789D1E21EABB00C2EB0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865E789B1E21EABB00C2EB0C /* LaunchScreen.storyboard */; };
+		865E78A61E21EB8000C2EB0C /* MyDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E78A51E21EB8000C2EB0C /* MyDataManager.m */; };
+		865E78A91E21EF6000C2EB0C /* HealthDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E78A81E21EF6000C2EB0C /* HealthDataManager.m */; };
+		865E78AC1E21EF8500C2EB0C /* SportDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E78AB1E21EF8500C2EB0C /* SportDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		865E78991E21EABB00C2EB0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		865E789C1E21EABB00C2EB0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		865E789E1E21EABB00C2EB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865E78A41E21EB8000C2EB0C /* MyDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDataManager.h; sourceTree = "<group>"; };
+		865E78A51E21EB8000C2EB0C /* MyDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDataManager.m; sourceTree = "<group>"; };
+		865E78A71E21EF6000C2EB0C /* HealthDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthDataManager.h; sourceTree = "<group>"; };
+		865E78A81E21EF6000C2EB0C /* HealthDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthDataManager.m; sourceTree = "<group>"; };
+		865E78AA1E21EF8500C2EB0C /* SportDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportDataManager.h; sourceTree = "<group>"; };
+		865E78AB1E21EF8500C2EB0C /* SportDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +71,17 @@
 				865E78911E21EABB00C2EB0C /* AppDelegate.m */,
 				865E78931E21EABB00C2EB0C /* ViewController.h */,
 				865E78941E21EABB00C2EB0C /* ViewController.m */,
+				865E78A41E21EB8000C2EB0C /* MyDataManager.h */,
+				865E78A51E21EB8000C2EB0C /* MyDataManager.m */,
 				865E78961E21EABB00C2EB0C /* Main.storyboard */,
 				865E78991E21EABB00C2EB0C /* Assets.xcassets */,
 				865E789B1E21EABB00C2EB0C /* LaunchScreen.storyboard */,
 				865E789E1E21EABB00C2EB0C /* Info.plist */,
 				865E788D1E21EABB00C2EB0C /* Supporting Files */,
+				865E78A71E21EF6000C2EB0C /* HealthDataManager.h */,
+				865E78A81E21EF6000C2EB0C /* HealthDataManager.m */,
+				865E78AA1E21EF8500C2EB0C /* SportDataManager.h */,
+				865E78AB1E21EF8500C2EB0C /* SportDataManager.m */,
 			);
 			path = MyDataManager;
 			sourceTree = "<group>";
@@ -152,7 +167,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				865E78951E21EABB00C2EB0C /* ViewController.m in Sources */,
+				865E78A61E21EB8000C2EB0C /* MyDataManager.m in Sources */,
+				865E78A91E21EF6000C2EB0C /* HealthDataManager.m in Sources */,
 				865E78921E21EABB00C2EB0C /* AppDelegate.m in Sources */,
+				865E78AC1E21EF8500C2EB0C /* SportDataManager.m in Sources */,
 				865E788F1E21EABB00C2EB0C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +328,7 @@
 				865E78A31E21EABB00C2EB0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
